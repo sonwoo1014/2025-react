@@ -1,4 +1,4 @@
-import './hello.css';
+import './Hello.css';
 
 function Hello(props){
     return (
