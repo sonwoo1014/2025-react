@@ -15,7 +15,7 @@ if(temp_number > 10){
 } else {
   temp_text = "not over 10";
 }
-const myElement3 = <div>{temp_number} == this number?:{temp_text}</div>;
+const myElement3 = <div>{temp_number} === this number?:{temp_text}</div>;
 const myElement4 = <div>{temp_number} === {(temp_number > 10) ? " o 10": "n o 10"}</div>
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
