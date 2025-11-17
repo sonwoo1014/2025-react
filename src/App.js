@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Hello from './Hello';
+import Garage from './Garage';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Hello title="oss!"></Hello>
+        <Garage></Garage>
         <p>
           hahaha <code>src/App.js</code> and save to reload.
         </p>

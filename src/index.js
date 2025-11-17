@@ -20,13 +20,21 @@ const myElement4 = <div>{temp_number} === {(temp_number > 10) ? " o 10": "n o 10
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+/*
+root.render(
   <>
+ 
   {myElement}
   {myElement1}
   {myElement2}
   {myElement3}
   </>
 )
+  */
   /*<React.StrictMode>
     <App />
   </React.StrictMode>
