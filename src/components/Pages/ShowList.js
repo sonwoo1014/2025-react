@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react';
 export default function ShowList (){
-    const API_URL = "http://6915405584e8bd126af93985.mockapi.io/students";
+    const API_URL = "https://6915405584e8bd126af93985.mockapi.io/students";
     
+
     const [students, setStudents] = useState([]);
     const [editItem, setEditItem] = useState(null);
 
